@@ -7,6 +7,7 @@
 
 /* Header */
 header {
+    background: navy;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -15,6 +16,7 @@ header {
 }
 
 #nav-title {
+    color: white;
     margin-right: auto;
     font-size: 1.5em;
 }
@@ -27,7 +29,7 @@ header li {
 
 header a {
     text-decoration: none;
-    color: #555;
+    color: #ffffff;
     transition: all 0.3s ease 0s;
 }
 
@@ -46,11 +48,12 @@ header a:hover {
 }
 
 .item-galeria {
-    background: #fff;
+    background: lightcyan;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     text-align: center;
     padding: 16px;
+    border: 2px solid navy;
 }
 
 .item-galeria img {
